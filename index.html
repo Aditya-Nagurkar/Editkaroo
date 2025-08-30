@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Editkaro.in – Video Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="#" class="brand">
+        <img src="assets/logo.png" alt="Editkaro Logo" class="logo" />
+        <span>Editkaro.in</span>
+      </a>
+      <div class="right-actions">
+        <a class="btn" href="#grid">Portfolio</a>
+        <a class="btn" href="#contact">Contact</a>
+        <a class="btn primary" href="mailto:hello@editkaro.in">Get a Quote</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Cut. Grade. Convert. <span class="highlight">Perform.</span></h1>
+      <p>We craft scroll‑stopping edits for brands, creators, and agencies. From <strong>short‑form bangers</strong> to <strong>documentary storytelling</strong> and <strong>eCommerce ads</strong>, our work is optimized for platforms and performance.</p>
+
+      <div class="hero-grid">
+        <div class="searchbar">
+          <input id="search" type="search" placeholder="Search projects, tags or platforms…" />
+          <button class="btn" id="clearSearch">Clear</button>
+        </div>
+        <div class="chips" id="chips"></div>
+      </div>
+    </section>
+
+    <section id="grid" class="grid"></section>
+
+    <section id="contact" class="contact-section">
+      <div class="contact-content">
+        <div class="contact-text">
+          <h2>Ready to Create Something Amazing?</h2>
+          <p>Whether you need viral short-form content, engaging gaming montages, or converting eCommerce ads, we're here to bring your vision to life.</p>
+          
+          <div class="contact-methods">
+            <div class="contact-method">
+              <div class="contact-icon">📧</div>
+              <div>
+                <h3>Email Us</h3>
+                <p><a href="mailto:hello@editkaro.in">hello@editkaro.in</a></p>
+              </div>
+            </div>
+            
+            <div class="contact-method">
+              <div class="contact-icon">💬</div>
+              <div>
+                <h3>WhatsApp</h3>
+                <p><a href="https://wa.me/919876543210">+91 98765 43210</a></p>
+              </div>
+            </div>
+            
+            <div class="contact-method">
+              <div class="contact-icon">📍</div>
+              <div>
+                <h3>Location</h3>
+                <p>Mumbai, India<br><small>Remote work available globally</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="contact-form">
+          <h3>Get a Quote</h3>
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name">Name *</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="email">Email *</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="projectType">Project Type *</label>
+              <select id="projectType" name="projectType" required>
+                <option value="">Select project type</option>
+                <option value="short-form videos">Short-form Videos</option>
+                <option value="long-form videos">Long-form Videos</option>
+                <option value="gaming videos">Gaming Videos</option>
+                <option value="football edits">Football Edits</option>
+                <option value="eCommerce ads">eCommerce Ads</option>
+                <option value="documentary style">Documentary Style</option>
+                <option value="color grading">Color Grading</option>
+                <option value="anime videos">Anime Videos</option>
+                <option value="ads">Ads</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="budget">Budget Range</label>
+              <select id="budget" name="budget">
+                <option value="">Select budget range</option>
+                <option value="under-500">Under $500</option>
+                <option value="500-1000">$500 - $1,000</option>
+                <option value="1000-2500">$1,000 - $2,500</option>
+                <option value="2500-plus">$2,500+</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="message">Project Details *</label>
+              <textarea id="message" name="message" rows="4" placeholder="Tell us about your project, timeline, and any specific requirements..." required></textarea>
+            </div>
+            
+            <button type="submit" class="btn primary submit-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+      
+      <div class="stats-footer">
+        <div class="stat">Total Projects: <strong id="count">0</strong></div>
+        <div class="stat">Avg. Length: <strong>15–90s</strong></div>
+        <div class="stat">Turnaround: <strong>24–72h</strong></div>
+        <div class="stat">Platforms: <strong>YT, IG, TT, FB</strong></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <div class="lb-wrap">
+      <div class="lb-head">
+        <div class="lb-title" id="lbTitle">Preview</div>
+        <button class="lb-close" id="lbClose">✕</button>
+      </div>
+      <div class="lb-video" id="lbVideo"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
