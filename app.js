@@ -1,19 +1,124 @@
 const PROJECTS = [
-  { id: 1, title: "Streetwear Drop – 30s", cat: "short-form videos", src: "assets/videos/short1.mp4", tags:["UGC","Reels","TikTok"] },
-  { id: 2, title: "Gaming Montage – 1m", cat: "gaming videos", src: "assets/videos/gaming1.mp4", tags:["Montage","Sync","Highlights"] },
-  { id: 3, title: "Football Recap – 45s", cat: "football edits", src: "assets/videos/football1.mp4", tags:["Highlights","Sports","Action"] },
-  { id: 4, title: "E‑Commerce Ad – 20s", cat: "eCommerce ads", src: "assets/videos/ecom1.mp4", tags:["Product","Ad","Conversion"] },
-  { id: 5, title: "Travel Documentary – 15m", cat: "long-form videos", src: "assets/videos/travel_doc.mp4", tags:["Documentary","Cinematic","Story"] },
-  { id: 6, title: "Product Demo – 35s", cat: "eCommerce ads", src: "assets/videos/product_demo.mp4", tags:["Demo","Tech","Sales"] },
-  { id: 7, title: "Nature Documentary – 8m", cat: "documentary style", src: "assets/videos/nature_doc.mp4", tags:["Nature","Storytelling","Cinematic"] },
-  { id: 8, title: "Fitness Brand Ad – 25s", cat: "ads", src: "assets/videos/fitness_ad.mp4", tags:["Fitness","Brand","Motion"] },
-  { id: 9, title: "Anime AMV – 3m", cat: "anime videos", src: "assets/videos/anime_amv.mp4", tags:["AMV","Sync","Anime"] },
-  { id: 10, title: "Color Grading Reel – 2m", cat: "color grading", src: "assets/videos/color_reel.mp4", tags:["Grading","Cinematic","Portfolio"] },
-  { id: 11, title: "Podcast Highlights – 1.5m", cat: "long-form videos", src: "assets/videos/podcast.mp4", tags:["Podcast","Highlights","Educational"] },
-  { id: 12, title: "Restaurant Promo – 40s", cat: "short-form videos", src: "assets/videos/restaurant.mp4", tags:["Food","Promo","Instagram"] },
-  { id: 13, title: "Gaming Tournament – 5m", cat: "gaming videos", src: "assets/videos/tournament.mp4", tags:["Esports","Tournament","Highlight"] },
-  { id: 14, title: "Football Skills – 1m", cat: "football edits", src: "assets/videos/skills.mp4", tags:["Skills","Training","Youth"] },
-  { id: 15, title: "Startup Story – 12m", cat: "documentary style", src: "assets/videos/startup.mp4", tags:["Business","Story","Inspiration"] },
+  { 
+    id: 1, 
+    title: "Streetwear Drop – 30s", 
+    cat: "short-form videos", 
+    src: "assets/videos/short1.mp4",
+    thumbnail: "assets/thumbnails/short1.jpg",
+    tags:["UGC","Reels","TikTok"] 
+  },
+  { 
+    id: 2, 
+    title: "Gaming Montage – 1m", 
+    cat: "gaming videos", 
+    src: "assets/videos/gaming1.mp4",
+    thumbnail: "assets/thumbnails/gaming1.jpg",
+    tags:["Montage","Sync","Highlights"] 
+  },
+  { 
+    id: 3, 
+    title: "Football Recap – 45s", 
+    cat: "football edits", 
+    src: "assets/videos/football1.mp4",
+    thumbnail: "assets/thumbnails/football1.jpg",
+    tags:["Highlights","Sports","Action"] 
+  },
+  { 
+    id: 4, 
+    title: "E‑Commerce Ad – 20s", 
+    cat: "eCommerce ads", 
+    src: "assets/videos/ecom1.mp4",
+    thumbnail: "assets/thumbnails/ecom1.jpg",
+    tags:["Product","Ad","Conversion"] 
+  },
+  { 
+    id: 5, 
+    title: "Travel Documentary – 15m", 
+    cat: "long-form videos", 
+    src: "assets/videos/travel_doc.mp4",
+    thumbnail: "assets/thumbnails/travel_doc.jpg",
+    tags:["Documentary","Cinematic","Story"] 
+  },
+  { 
+    id: 6, 
+    title: "Product Demo – 35s", 
+    cat: "eCommerce ads", 
+    src: "assets/videos/product_demo.mp4",
+    thumbnail: "assets/thumbnails/product_demo.jpg",
+    tags:["Demo","Tech","Sales"] 
+  },
+  { 
+    id: 7, 
+    title: "Nature Documentary – 8m", 
+    cat: "documentary style", 
+    src: "assets/videos/nature_doc.mp4",
+    thumbnail: "assets/thumbnails/nature_doc.jpg",
+    tags:["Nature","Storytelling","Cinematic"] 
+  },
+  { 
+    id: 8, 
+    title: "Fitness Brand Ad – 25s", 
+    cat: "ads", 
+    src: "assets/videos/fitness_ad.mp4",
+    thumbnail: "assets/thumbnails/fitness_ad.jpg",
+    tags:["Fitness","Brand","Motion"] 
+  },
+  { 
+    id: 9, 
+    title: "Anime AMV – 3m", 
+    cat: "anime videos", 
+    src: "assets/videos/anime_amv.mp4",
+    thumbnail: "assets/thumbnails/anime_amv.jpg",
+    tags:["AMV","Sync","Anime"] 
+  },
+  { 
+    id: 10, 
+    title: "Color Grading Reel – 2m", 
+    cat: "color grading", 
+    src: "assets/videos/color_reel.mp4",
+    thumbnail: "assets/thumbnails/color_reel.jpg",
+    tags:["Grading","Cinematic","Portfolio"] 
+  },
+  { 
+    id: 11, 
+    title: "Podcast Highlights – 1.5m", 
+    cat: "long-form videos", 
+    src: "assets/videos/podcast.mp4",
+    thumbnail: "assets/thumbnails/podcast.jpg",
+    tags:["Podcast","Highlights","Educational"] 
+  },
+  { 
+    id: 12, 
+    title: "Restaurant Promo – 40s", 
+    cat: "short-form videos", 
+    src: "assets/videos/restaurant.mp4",
+    thumbnail: "assets/thumbnails/restaurant.jpg",
+    tags:["Food","Promo","Instagram"] 
+  },
+  { 
+    id: 13, 
+    title: "Gaming Tournament – 5m", 
+    cat: "gaming videos", 
+    src: "assets/videos/tournament.mp4",
+    thumbnail: "assets/thumbnails/tournament.jpg",
+    tags:["Esports","Tournament","Highlight"] 
+  },
+  { 
+    id: 14, 
+    title: "Football Skills – 1m", 
+    cat: "football edits", 
+    src: "assets/videos/skills.mp4",
+    thumbnail: "assets/thumbnails/skills.jpg",
+    tags:["Skills","Training","Youth"] 
+  },
+  { 
+    id: 15, 
+    title: "Startup Story – 12m", 
+    cat: "documentary style", 
+    src: "assets/videos/startup.mp4",
+    thumbnail: "assets/thumbnails/startup.jpg",
+    tags:["Business","Story","Inspiration"] 
+  },
 ];
 
 const CATEGORIES = [
@@ -65,10 +170,15 @@ function render(){
     return inCat&&inSearch;
   });
   countEl.textContent=filtered.length;
+  
   gridEl.innerHTML=filtered.map(p=>`
-    <article class="card">
+    <article class="card" data-video="${p.src}">
       <div class="thumb">
-        <video src="${p.src}" muted playsinline preload="metadata"></video>
+        <img src="${p.thumbnail}" alt="${p.title}" class="thumbnail-img" loading="lazy">
+        <video src="${p.src}" muted playsinline preload="none" style="display: none;"></video>
+        <div class="play-overlay">
+          <div class="play-button">▶</div>
+        </div>
         <div class="badge">${p.cat}</div>
       </div>
       <div class="meta">
@@ -77,17 +187,40 @@ function render(){
       </div>
     </article>`).join('');
 
-  gridEl.querySelectorAll('video').forEach(v=>{
-    v.onmouseenter=()=>{
-      v.currentTime = 0;
-      v.play().catch(e => console.log('Play failed:', e));
-    };
-    v.onmouseleave=()=>{
-      v.pause();
-      v.currentTime=0;
-    };
-    v.onclick=()=>openLightbox(v.src, v.closest('.card').querySelector('.title').textContent);
-  });
+  // Enhanced interaction with thumbnails
+  gridEl.querySelectorAll('.card').forEach(setupCardInteraction);
+}
+
+function setupCardInteraction(card) {
+  const videoSrc = card.dataset.video;
+  const img = card.querySelector('.thumbnail-img');
+  const video = card.querySelector('video');
+  const playOverlay = card.querySelector('.play-overlay');
+  const title = card.querySelector('.title').textContent;
+  
+  card.onmouseenter = () => {
+    img.style.opacity = '0';
+    video.style.display = 'block';
+    playOverlay.style.opacity = '0';
+    video.currentTime = 0;
+    video.play().catch(e => {
+      console.log('Play failed:', e);
+      // Fallback to showing thumbnail
+      img.style.opacity = '1';
+      video.style.display = 'none';
+      playOverlay.style.opacity = '1';
+    });
+  };
+  
+  card.onmouseleave = () => {
+    video.pause();
+    video.currentTime = 0;
+    video.style.display = 'none';
+    img.style.opacity = '1';
+    playOverlay.style.opacity = '1';
+  };
+  
+  card.onclick = () => openLightbox(videoSrc, title);
 }
 
 function openLightbox(src, title){
@@ -141,5 +274,32 @@ ${data.message}`;
   // Show success message
   alert('Thank you! Your default email client should open with the message ready to send.');
 };
+
+// Error handling for missing thumbnails
+document.addEventListener('DOMContentLoaded', () => {
+  // Add error handling for missing images
+  const handleImageError = (img) => {
+    img.style.display = 'none';
+    const video = img.parentElement.querySelector('video');
+    video.style.display = 'block';
+    video.setAttribute('poster', '');
+  };
+  
+  // Apply to dynamically loaded images
+  const observer = new MutationObserver((mutations) => {
+    mutations.forEach((mutation) => {
+      mutation.addedNodes.forEach((node) => {
+        if (node.nodeType === 1) {
+          const images = node.querySelectorAll ? node.querySelectorAll('.thumbnail-img') : [];
+          images.forEach(img => {
+            img.onerror = () => handleImageError(img);
+          });
+        }
+      });
+    });
+  });
+  
+  observer.observe(document.body, { childList: true, subtree: true });
+});
 
 render();
