@@ -4,7 +4,7 @@ const PROJECTS = [
     title: "Streetwear Drop – 30s", 
     cat: "short-form videos", 
     src: "assets/videos/short1.mp4",
-    thumbnail: "assets/thumbnails/short1.jpg",
+    thumbnail: "assets/thumbnails/short1.jpeg",
     tags:["UGC","Reels","TikTok"] 
   },
   { 
@@ -12,7 +12,7 @@ const PROJECTS = [
     title: "Gaming Montage – 1m", 
     cat: "gaming videos", 
     src: "assets/videos/gaming1.mp4",
-    thumbnail: "assets/thumbnails/gaming1.jpg",
+    thumbnail: "assets/thumbnails/gaming1.jpeg",
     tags:["Montage","Sync","Highlights"] 
   },
   { 
@@ -20,7 +20,7 @@ const PROJECTS = [
     title: "Football Recap – 45s", 
     cat: "football edits", 
     src: "assets/videos/football1.mp4",
-    thumbnail: "assets/thumbnails/football1.jpg",
+    thumbnail: "assets/thumbnails/football1.jpeg",
     tags:["Highlights","Sports","Action"] 
   },
   { 
@@ -28,7 +28,7 @@ const PROJECTS = [
     title: "E‑Commerce Ad – 20s", 
     cat: "eCommerce ads", 
     src: "assets/videos/ecom1.mp4",
-    thumbnail: "assets/thumbnails/ecom1.jpg",
+    thumbnail: "assets/thumbnails/ecom1.jpeg",
     tags:["Product","Ad","Conversion"] 
   },
   { 
@@ -36,7 +36,7 @@ const PROJECTS = [
     title: "Travel Documentary – 15m", 
     cat: "long-form videos", 
     src: "assets/videos/travel_doc.mp4",
-    thumbnail: "assets/thumbnails/travel_doc.jpg",
+    thumbnail: "assets/thumbnails/travel_doc.jpeg",
     tags:["Documentary","Cinematic","Story"] 
   },
   { 
@@ -44,7 +44,7 @@ const PROJECTS = [
     title: "Product Demo – 35s", 
     cat: "eCommerce ads", 
     src: "assets/videos/product_demo.mp4",
-    thumbnail: "assets/thumbnails/product_demo.jpg",
+    thumbnail: "assets/thumbnails/product_demo.jpeg",
     tags:["Demo","Tech","Sales"] 
   },
   { 
@@ -52,7 +52,7 @@ const PROJECTS = [
     title: "Nature Documentary – 8m", 
     cat: "documentary style", 
     src: "assets/videos/nature_doc.mp4",
-    thumbnail: "assets/thumbnails/nature_doc.jpg",
+    thumbnail: "assets/thumbnails/nature_doc.jpeg",
     tags:["Nature","Storytelling","Cinematic"] 
   },
   { 
@@ -60,7 +60,7 @@ const PROJECTS = [
     title: "Fitness Brand Ad – 25s", 
     cat: "ads", 
     src: "assets/videos/fitness_ad.mp4",
-    thumbnail: "assets/thumbnails/fitness_ad.jpg",
+    thumbnail: "assets/thumbnails/fitness_ad.jpeg",
     tags:["Fitness","Brand","Motion"] 
   },
   { 
@@ -68,7 +68,7 @@ const PROJECTS = [
     title: "Anime AMV – 3m", 
     cat: "anime videos", 
     src: "assets/videos/anime_amv.mp4",
-    thumbnail: "assets/thumbnails/anime_amv.jpg",
+    thumbnail: "assets/thumbnails/anime_amv.jpeg",
     tags:["AMV","Sync","Anime"] 
   },
   { 
@@ -76,7 +76,7 @@ const PROJECTS = [
     title: "Color Grading Reel – 2m", 
     cat: "color grading", 
     src: "assets/videos/color_reel.mp4",
-    thumbnail: "assets/thumbnails/color_reel.jpg",
+    thumbnail: "assets/thumbnails/color_reel.jpeg",
     tags:["Grading","Cinematic","Portfolio"] 
   },
   { 
@@ -84,7 +84,7 @@ const PROJECTS = [
     title: "Podcast Highlights – 1.5m", 
     cat: "long-form videos", 
     src: "assets/videos/podcast.mp4",
-    thumbnail: "assets/thumbnails/podcast.jpg",
+    thumbnail: "assets/thumbnails/podcast.jpeg",
     tags:["Podcast","Highlights","Educational"] 
   },
   { 
@@ -92,7 +92,7 @@ const PROJECTS = [
     title: "Restaurant Promo – 40s", 
     cat: "short-form videos", 
     src: "assets/videos/restaurant.mp4",
-    thumbnail: "assets/thumbnails/restaurant.jpg",
+    thumbnail: "assets/thumbnails/restaurant.jpeg",
     tags:["Food","Promo","Instagram"] 
   },
   { 
@@ -100,7 +100,7 @@ const PROJECTS = [
     title: "Gaming Tournament – 5m", 
     cat: "gaming videos", 
     src: "assets/videos/tournament.mp4",
-    thumbnail: "assets/thumbnails/tournament.jpg",
+    thumbnail: "assets/thumbnails/tournament.jpeg",
     tags:["Esports","Tournament","Highlight"] 
   },
   { 
@@ -108,7 +108,7 @@ const PROJECTS = [
     title: "Football Skills – 1m", 
     cat: "football edits", 
     src: "assets/videos/skills.mp4",
-    thumbnail: "assets/thumbnails/skills.jpg",
+    thumbnail: "assets/thumbnails/skills.jpeg",
     tags:["Skills","Training","Youth"] 
   },
   { 
@@ -116,7 +116,7 @@ const PROJECTS = [
     title: "Startup Story – 12m", 
     cat: "documentary style", 
     src: "assets/videos/startup.mp4",
-    thumbnail: "assets/thumbnails/startup.jpg",
+    thumbnail: "assets/thumbnails/startup.jpeg",
     tags:["Business","Story","Inspiration"] 
   },
 ];
